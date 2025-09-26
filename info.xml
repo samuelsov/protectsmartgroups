@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<extension key="protectdynamicgroups" type="module">
-  <file>protectdynamicgroups</file>
-  <name>protectdynamicgroups</name>
-  <description>FIXME</description>
+<extension key="protectsmartgroups" type="module">
+  <file>protectsmartgroups</file>
+  <name>Protect Smart Groups</name>
+  <description>Protect Smart Group</description>
   <license>AGPL-3.0</license>
   <authors>
     <author>
@@ -31,9 +31,9 @@
     <psr4 prefix="Civi\" path="Civi"/>
   </classloader>
   <civix>
-    <namespace>CRM/Protectdynamicgroups</namespace>
+    <namespace>CRM/Protectsmartgroups</namespace>
     <format>25.01.1</format>
-    <angularModule>crmProtectdynamicgroups</angularModule>
+    <angularModule>crmProtectsmartgroups</angularModule>
   </civix>
   <mixins>
     <mixin>scan-classes@1.0.0</mixin>

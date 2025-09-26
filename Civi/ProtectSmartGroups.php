@@ -2,16 +2,16 @@
 
 namespace Civi;
 
-use CRM_Protectdynamicgroups_ExtensionUtil as E;
+use CRM_Protectsmartgroups_ExtensionUtil as E;
 use Civi\Core\Service\AutoService;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
- * Protect dynamic groups by forbiding static contact add
+ * Protect smart groups by forbiding static contact add
  * @internal
  * @service
  */
-class ProtectDynamicGroups extends AutoService implements EventSubscriberInterface {
+class ProtectSmartGroups extends AutoService implements EventSubscriberInterface {
 
   /**
    * @return array

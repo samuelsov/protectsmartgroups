@@ -1,4 +1,4 @@
-# protectdynamicgroups
+# protectsmartgroups
 
 Simple extension to forbid adding contact statically on smart groups unless user has the permission `bypass smart group protection`
 
