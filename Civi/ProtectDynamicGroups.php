@@ -47,7 +47,6 @@ class ProtectDynamicGroups extends AutoService implements EventSubscriberInterfa
             $element = $form->getElement($elementName);
             $data = json_decode($element->_attributes['data-select-params'],1);
             $options = $data['data'];
-            \Civi::log()->debug('options -- ' . print_r($options, 1));
 
             foreach ($options as $idx => $option) {
               // Vérifier via APIv4 si le groupe est dynamique
