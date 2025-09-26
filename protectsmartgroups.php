@@ -1,16 +1,16 @@
 <?php
 
-require_once 'protectdynamicgroups.civix.php';
+require_once 'protectsmartgroups.civix.php';
 
-use CRM_Protectdynamicgroups_ExtensionUtil as E;
+use CRM_Protectsmartgroups_ExtensionUtil as E;
 
 /**
  * Implements hook_civicrm_config().
  *
  * @link https://docs.civicrm.org/dev/en/latest/hooks/hook_civicrm_config/
  */
-function protectdynamicgroups_civicrm_config(&$config): void {
-  _protectdynamicgroups_civix_civicrm_config($config);
+function protectsmartgroups_civicrm_config(&$config): void {
+  _protectsmartgroups_civix_civicrm_config($config);
 }
 
 /**
@@ -18,8 +18,8 @@ function protectdynamicgroups_civicrm_config(&$config): void {
  *
  * @link https://docs.civicrm.org/dev/en/latest/hooks/hook_civicrm_install
  */
-function protectdynamicgroups_civicrm_install(): void {
-  _protectdynamicgroups_civix_civicrm_install();
+function protectsmartgroups_civicrm_install(): void {
+  _protectsmartgroups_civix_civicrm_install();
 }
 
 /**
@@ -27,6 +27,6 @@ function protectdynamicgroups_civicrm_install(): void {
  *
  * @link https://docs.civicrm.org/dev/en/latest/hooks/hook_civicrm_enable
  */
-function protectdynamicgroups_civicrm_enable(): void {
-  _protectdynamicgroups_civix_civicrm_enable();
+function protectsmartgroups_civicrm_enable(): void {
+  _protectsmartgroups_civix_civicrm_enable();
 }

@@ -1,4 +1,4 @@
-Package: protectdynamicgroups
+Package: protectsmartgroups
 Copyright (C) 2025, Shane Bill <<shane@symbiotic.coop>>
 Licensed under the GNU Affero Public License 3.0 (below).
 
